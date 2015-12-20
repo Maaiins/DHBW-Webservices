@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalculatorClient", "ConsoleCalculatorClient\ConsoleCalculatorClient.csproj", "{410519C0-32E9-4CB4-8EB1-396898D29F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalculatorService", "ConsoleCalculatorService\ConsoleCalculatorService.csproj", "{CF856898-E59B-470C-BC93-88FC6C615C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCurrencyConverter", "ConsoleCurrencyConverter\ConsoleCurrencyConverter.csproj", "{E0671C45-B20F-4F26-95E2-5E8254A98DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDatagrammsCalculatorClient", "ConsoleDatagrammsCalculatorClient\ConsoleDatagrammsCalculatorClient.csproj", "{71A3B3BB-5F96-47AB-966D-52A5EF5AB6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDatagrammsCalculatorService", "ConsoleDatagrammsCalculatorService\ConsoleDatagrammsCalculatorService.csproj", "{7BB45AC3-F114-4103-8EF8-3781E0A7E0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDatagrammsContracts", "ConsoleDatagrammsContracts\ConsoleDatagrammsContracts.csproj", "{64E5C1A5-D80E-4560-8F11-E3949042B7C3}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCalculator", "AzureCalculator\AzureCalculator.ccproj", "{E304FB2D-A50B-4A28-85D9-A6846371F48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCalculatorContract", "AzureCalculatorContract\AzureCalculatorContract.csproj", "{760E05D4-F138-4B76-8FD8-7CCCE357AA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCalculatorFrontend", "AzureCalculatorFrontend\AzureCalculatorFrontend.csproj", "{48EB33C9-AB86-4AEC-8EB5-D67201B14C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCalculatorWorker", "AzureCalculatorWorker\AzureCalculatorWorker.csproj", "{D5A4103F-FBF2-4025-BDA5-7757F9F74BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410519C0-32E9-4CB4-8EB1-396898D29F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410519C0-32E9-4CB4-8EB1-396898D29F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410519C0-32E9-4CB4-8EB1-396898D29F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410519C0-32E9-4CB4-8EB1-396898D29F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF856898-E59B-470C-BC93-88FC6C615C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF856898-E59B-470C-BC93-88FC6C615C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF856898-E59B-470C-BC93-88FC6C615C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF856898-E59B-470C-BC93-88FC6C615C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0671C45-B20F-4F26-95E2-5E8254A98DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0671C45-B20F-4F26-95E2-5E8254A98DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0671C45-B20F-4F26-95E2-5E8254A98DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0671C45-B20F-4F26-95E2-5E8254A98DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A3B3BB-5F96-47AB-966D-52A5EF5AB6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A3B3BB-5F96-47AB-966D-52A5EF5AB6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A3B3BB-5F96-47AB-966D-52A5EF5AB6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A3B3BB-5F96-47AB-966D-52A5EF5AB6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB45AC3-F114-4103-8EF8-3781E0A7E0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB45AC3-F114-4103-8EF8-3781E0A7E0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB45AC3-F114-4103-8EF8-3781E0A7E0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB45AC3-F114-4103-8EF8-3781E0A7E0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E5C1A5-D80E-4560-8F11-E3949042B7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E5C1A5-D80E-4560-8F11-E3949042B7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E5C1A5-D80E-4560-8F11-E3949042B7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E5C1A5-D80E-4560-8F11-E3949042B7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E304FB2D-A50B-4A28-85D9-A6846371F48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E304FB2D-A50B-4A28-85D9-A6846371F48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E304FB2D-A50B-4A28-85D9-A6846371F48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E304FB2D-A50B-4A28-85D9-A6846371F48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760E05D4-F138-4B76-8FD8-7CCCE357AA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760E05D4-F138-4B76-8FD8-7CCCE357AA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760E05D4-F138-4B76-8FD8-7CCCE357AA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760E05D4-F138-4B76-8FD8-7CCCE357AA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EB33C9-AB86-4AEC-8EB5-D67201B14C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EB33C9-AB86-4AEC-8EB5-D67201B14C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EB33C9-AB86-4AEC-8EB5-D67201B14C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EB33C9-AB86-4AEC-8EB5-D67201B14C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A4103F-FBF2-4025-BDA5-7757F9F74BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A4103F-FBF2-4025-BDA5-7757F9F74BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A4103F-FBF2-4025-BDA5-7757F9F74BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A4103F-FBF2-4025-BDA5-7757F9F74BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

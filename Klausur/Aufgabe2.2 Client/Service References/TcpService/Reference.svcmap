@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="48728ab0-2d03-47dd-85af-13e10273e646" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8085/TcpService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TcpService.xsd" MetadataType="Schema" ID="661a69d7-4d75-4f8f-b52e-ae6961479400" SourceId="1" SourceUrl="http://localhost:8085/TcpService?xsd=xsd2" />
+    <MetadataFile FileName="TcpService1.xsd" MetadataType="Schema" ID="3471b1bb-1b00-4402-aaf4-b75e0fd4b979" SourceId="1" SourceUrl="http://localhost:8085/TcpService?xsd=xsd1" />
+    <MetadataFile FileName="TcpService2.xsd" MetadataType="Schema" ID="c7fd01b6-1616-4705-b7c4-35c2bc337cc3" SourceId="1" SourceUrl="http://localhost:8085/TcpService?xsd=xsd0" />
+    <MetadataFile FileName="TcpService.disco" MetadataType="Disco" ID="3829a977-cdbd-49c3-982f-ddb027e1d398" SourceId="1" SourceUrl="http://localhost:8085/TcpService?disco" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="ae7efd3f-d4a1-43c7-9d2f-802882f2a7a1" SourceId="1" SourceUrl="http://localhost:8085/TcpService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
